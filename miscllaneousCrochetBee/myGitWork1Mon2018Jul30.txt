@@ -1,0 +1,83 @@
+
+My Git work 9:01 AM 7/30/2018
+
+cody@LAPTOP-TO4068AG MINGW64 /
+$ dir
+1.JPG                   bin           lessImpDwnloads   ReleaseNotes.html
+1index                  cmd           LICENSE.txt       TA2017LC101
+1myshopGitCommands.txt  dev           microblog         tmp
+1techExprmnt            etc           mingw64           unins000.dat
+2.JPG                   git-bash.exe  myshop            unins000.exe
+4.JPG                   git-cmd.exe   oldNewLists.html  unins000.msg
+BBuckSourceTree2017     gitcode       Practice          usr
+BeeBus                  gitjava       proc              watch.html
+
+cody@LAPTOP-TO4068AG MINGW64 /
+$ cd gitcode
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode
+$ dir
+1BrowserJavaScriptLC101Unit3DOT2.txt  frontend       myshop2
+1JavaScriptLC101Unit3DOT2.txt         gmail_project  proj1
+1lessImpgitcode                       JS2017         proj2
+1USEthis2017Oct25                     JSstudios      Resource\ Material
+CrochetBee                            LC101          SpellBee1
+fitgrit                               MyJS           webtip1
+fitgritExpt                           MyPHP
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode
+$ cd CrochetBee
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/CrochetBee
+$ dir
+READmeCrochetbee.txt
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/CrochetBee
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/CrochetBee
+$ git init
+Initialized empty Git repository in C:/Users/cody/Downloads/Git/gitcode/CrochetBee/.git/
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/CrochetBee (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        READmeCrochetbee.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/CrochetBee (master)
+$ git add .
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/CrochetBee (master)
+$ git commit -m "initial CrochetBee commit2018Jul30"
+[master (root-commit) 2864a8e] initial CrochetBee commit2018Jul30
+ 1 file changed, 26 insertions(+)
+ create mode 100644 READmeCrochetbee.txt
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/CrochetBee (master)
+$ git remote add origin https://github.com/HannahMoses/CrochetBee.git
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/CrochetBee (master)
+$ git push origin master
+fatal: AggregateException encountered.
+   One or more errors occurred.
+Username for 'https://github.com': hannahmoses612@gmail.com
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 709 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/HannahMoses/CrochetBee.git
+ * [new branch]      master -> master
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/CrochetBee (master)
+
+
